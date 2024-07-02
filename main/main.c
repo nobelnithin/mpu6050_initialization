@@ -60,13 +60,13 @@ void MPU6050_initialize(void *params)
 	i2c_cmd_handle_t cmd;
 	vTaskDelay(200/portTICK_PERIOD_MS);
 
-	cmd = i2c_cmd_link_create();
-	ESP_ERROR_CHECK(i2c_master_start(cmd));
-	ESP_ERROR_CHECK(i2c_master_write_byte(cmd, (I2C_ADDRESS << 1) | I2C_MASTER_WRITE, 1));
-	i2c_master_write_byte(cmd, MPU6050_GYRO_XOUT_H, 1);
-	ESP_ERROR_CHECK(i2c_master_stop(cmd));
-	i2c_master_cmd_begin(I2C_NUM_0, cmd, 1000/portTICK_PERIOD_MS);
-	i2c_cmd_link_delete(cmd);
+	// cmd = i2c_cmd_link_create();
+	// ESP_ERROR_CHECK(i2c_master_start(cmd));
+	// ESP_ERROR_CHECK(i2c_master_write_byte(cmd, (I2C_ADDRESS << 1) | I2C_MASTER_WRITE, 1));
+	// i2c_master_write_byte(cmd, MPU6050_GYRO_XOUT_H, 1);
+	// ESP_ERROR_CHECK(i2c_master_stop(cmd));
+	// i2c_master_cmd_begin(I2C_NUM_0, cmd, 1000/portTICK_PERIOD_MS);
+	// i2c_cmd_link_delete(cmd);
 
 	cmd = i2c_cmd_link_create();
 	ESP_ERROR_CHECK(i2c_master_start(cmd));

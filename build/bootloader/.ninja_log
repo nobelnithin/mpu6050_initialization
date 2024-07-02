@@ -114,3 +114,5 @@
 48082	50441	7416200966312484	C:/Biostim/MPU6050/mpu6050_initialization/build/bootloader/.bin_timestamp	ae4637971eeb518a
 50441	51087	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	6d8b60309dd5e4c0
 50441	51087	0	C:/Biostim/MPU6050/mpu6050_initialization/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	6d8b60309dd5e4c0
+74	263	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	6d8b60309dd5e4c0
+74	263	0	C:/Biostim/MPU6050/mpu6050_initialization/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	6d8b60309dd5e4c0
